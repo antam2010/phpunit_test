@@ -1,6 +1,6 @@
 <?php
 class Calculator {
-    public function add($a, $b) {
+    public function add(int $a = 0, int $b = 0): int {
         return $a + $b;
     }
 

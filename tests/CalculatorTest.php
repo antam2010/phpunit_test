@@ -13,15 +13,14 @@ class CalculatorTest extends TestCase
         $this->calculator = new Calculator();
     }
 
-    public function testAdd_int()
+    public function testAdd()
     {
         $result = $this->calculator->add(5, 3);
         $this->assertEquals(8, $result);
-    }
-    public function testAdd_string()
-    {
+
         $result = $this->calculator->add("5", "3");
         $this->assertEquals("8", $result);
+        
     }
 
     public function testSubtract()
