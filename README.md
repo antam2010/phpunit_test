@@ -12,4 +12,6 @@ OS: Ubuntu
 
 
 추가 정보
-GitHub SSH 서버에 등록하여 Git push 시 로그인을 요구하지 않도록 합니다
+GitHub SSH 서버에 등록하여 Git push 시 로그인을 요구하지 않도록( 완료)
+젠킨스 CI/CD 설치 자동배
+
